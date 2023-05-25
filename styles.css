@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     margin-left: 100px;
     margin-right: 100px;
+    min-height: 100vh;
 }
 
 ul {
@@ -31,5 +32,15 @@ a {
 }
 
 .body {
-    
+    flex: 1;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    background: #1f2937;
+    color: white;
+}
+
